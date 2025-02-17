@@ -13,7 +13,7 @@ const login = () => {
             alignSelf:'center', 
             marginTop: 250, 
             padding: 10}}
-          placeholder="Enter user"
+          placeholder="User here"
         />
         <TextInput
           style={{
@@ -24,14 +24,13 @@ const login = () => {
             alignSelf:'center', 
             marginTop:10, 
             padding: 10}}
-          placeholder="Enter pass"
+          placeholder="Pass here"
         />
         <View style={{width: 300, marginTop:10, alignSelf:'center'}}>
         <Button 
           title="Login"
-          color="#43A3F7"
-          onPress={() => Alert.alert('Succesfully loged in')}
-        />
+          color="green"
+          />
         </View>
       </SafeAreaView>
     </SafeAreaProvider>

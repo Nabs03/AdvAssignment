@@ -15,7 +15,7 @@ const exercises = () => {
         {exercise.map((exercise)=> {
             return (
                 <Link href={exercise.href}>
-                    <View style={{margin: 5, backgroundColor:"lightgrey", borderColor:"lightgrey", borderRadius:10, padding: 10, width:'99.5%'}}>
+                    <View style={{margin: 5, backgroundColor:"yellow", borderColor:"yellow", borderRadius:15, padding: 20, width:'99.5%'}}>
                         <Text style={{fontSize: 40}}>{exercise.title}</Text>
                         <Text style={{fontSize: 15, paddingLeft: 5}}>{exercise.desc}</Text>
                     </View>

@@ -59,11 +59,11 @@ const stopWatch = () => {
 
 
   return (
-    <View style={{marginTop:10, alignSelf: 'center', width:300}}>
+    <View style={{alignSelf: 'center', width:300, marginTop: -100}}>
         <Text style={{fontSize: 40, alignSelf:'center', marginTop: 300}}>
             {formatTimeMinutes()}:{formatTimeSeconds()}:{formatTimeMillieSeconds()}
         </Text>
-        <View style={{marginBottom: 10}}>
+        <View style={{marginBottom: 10, marginTop:100}}>
         <Button
         onPress={start}
             title='Start'
@@ -72,7 +72,7 @@ const stopWatch = () => {
         </View>
         <Button
         onPress={stop}
-            title='Stop'
+            title='Pause'
             color="red"
         />
         <View style={{marginTop: 10}}>
