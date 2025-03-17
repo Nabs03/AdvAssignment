@@ -9,8 +9,8 @@ const exercises = () => {
         {title: 'Exercise 2', desc: '', href:"/login2"}, 
         {title: 'Exercise 3', desc: 'Login Screen', href:"/login"}, 
         {title: 'Exercise 4', desc: 'Stop Watch', href:"/stopWatch"},
-        {title: 'Exercise 5', desc: 'Stop Watch', href:"/register"},
-        {title: 'Exercise 6', desc: 'Stop Watch', href:"/crud"}  
+        {title: 'Exercise 5', desc: 'Register', href:"/register"},
+        {title: 'Exercise 6', desc: 'Crud', href:"/crud"}  
     ]
   return (
     <ScrollView>
