@@ -10,14 +10,15 @@ const exercises = () => {
         {title: 'Exercise 3', desc: 'Login Screen', href:"/login"}, 
         {title: 'Exercise 4', desc: 'Stop Watch', href:"/stopWatch"},
         {title: 'Exercise 5', desc: 'Register', href:"/register"},
-        {title: 'Exercise 6', desc: 'Crud', href:"/crud"}  
+        {title: 'Exercise 6', desc: 'CRUD', href:"/crud"},
+        {title: 'Exercise 7', desc: 'Quiz', href:"/quiz"}   
     ]
   return (
     <ScrollView>
         {exercise.map((exercise)=> {
             return (
                 <Link href={exercise.href}>
-                    <View style={{margin: 5, backgroundColor:"yellow", borderColor:"yellow", borderRadius:15, padding: 20, width:'99.5%'}}>
+                    <View style={{margin: 5, backgroundColor:"lightgrey", borderColor:"lightgrey", borderRadius:15, padding: 20, width:'99.5%'}}>
                         <Text style={{fontSize: 40}}>{exercise.title}</Text>
                         <Text style={{fontSize: 15, paddingLeft: 5}}>{exercise.desc}</Text>
                     </View>
